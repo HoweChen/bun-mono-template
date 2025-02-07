@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "bun-mono-template",
   "module": "index.ts",
   "type": "module",
   "private": true,
