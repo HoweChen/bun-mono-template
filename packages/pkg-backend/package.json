@@ -8,8 +8,8 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "pkg-common":"workspace:*",
-    "elysia": "latest",
+    "hono": "^4.7.0",
+    "pkg-common": "workspace:*",
     "zod": "^3.24.1"
   },
   "devDependencies": {
