@@ -1,0 +1,18 @@
+{
+  "name": "pkg-backend",
+  "version": "1.0.50",
+  "type": "module",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "pkg-common":"workspace:*",
+    "elysia": "latest",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}

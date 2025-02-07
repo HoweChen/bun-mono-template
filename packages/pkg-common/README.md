@@ -1,4 +1,4 @@
-# app
+# common
 
 To install dependencies:
 
