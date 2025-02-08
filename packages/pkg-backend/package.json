@@ -9,8 +9,7 @@
   },
   "dependencies": {
     "hono": "^4.7.0",
-    "pkg-common": "workspace:*",
-    "zod": "^3.24.1"
+    "pkg-common": "workspace:*"
   },
   "devDependencies": {
     "bun-types": "latest"

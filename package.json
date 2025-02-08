@@ -7,6 +7,6 @@
     "packages/*"
   ],
   "scripts": {
-    "build:backend": "bun build --compile ./packages/pkg-backend --outfile=dist/backend"
+    "build:backend": "bun build --compile ./packages/pkg-backend --outfile=dist/backend && bun run build.ts pkg-backend"
   }
 }
