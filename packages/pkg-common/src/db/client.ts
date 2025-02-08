@@ -7,7 +7,7 @@ import * as fs from 'node:fs';
 // Function to load and validate DB environment variables
 export function loadDbEnv() {
     // Load db.env file
-    const envPath = path.resolve(__dirname, './assets/db.env');
+    const envPath = path.resolve(__dirname, './conf/db.env');
     if (!fs.existsSync(envPath)) {
         throw new Error('db.env file not found');
     }
